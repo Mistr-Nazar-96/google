@@ -1,0 +1,120 @@
+div {
+    position: relative;
+    top: 55px;
+    text-align: center;
+}
+
+input[type="text"] {
+    position: relative;
+    top: 30px;
+    width: 500px;
+    padding-inline-start: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    font-size: 18px;
+}
+
+input:hover {
+    background-color: powderblue;
+}
+
+input[type="submit"] {
+    position: relative;
+    top: 60px;
+    height: 40px;
+    width: 135px;
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+input:hover[type="submit"] {
+    background-color: forestgreen;
+}
+
+#foo2 {
+    top: 220px;
+    background-color: darkgray;
+    
+}
+
+#link {
+    position: relative;
+    left: 70%;
+    top: 10px;
+    color: blue;
+    text-decoration: none;
+    }
+
+#link:hover {
+    text-decoration: underline;
+    color: darkgreen;
+    }
+
+#link2 {
+    position: relative;
+    left: 75%;
+    top: 10px;
+    color: blue;
+    text-decoration: none;
+    }
+
+#link2:hover {
+    text-decoration: underline;
+    color: darkgreen; 
+    }
+
+h3 {
+    position: relative;
+    top: 115px;
+    left: 130px;
+}
+
+    @media(min-width: 500px) {
+        body {
+            background-color: honeydew ;
+        }
+    }
+
+    @media(max-width: 600px) {
+        #link {
+            position: relative;
+            left: 40%;
+            top: 10px;
+            color: blue;
+            text-decoration: none;
+            }
+        
+        #link:hover {
+            text-decoration: underline;
+            color: darkgreen;
+            }
+        
+        #link2 {
+            position: relative;
+            left: 50%;
+            top: 10px;
+            color: blue;
+            text-decoration: none;
+            }
+        
+        #link2:hover {
+            text-decoration: underline;
+            color: darkgreen; 
+            }
+        
+            input[type="text"] {
+                position: relative;
+                top: 30px;
+                width: 400px;
+                padding-inline-start: 40px;
+                height: 40px;
+                border-radius: 50px;
+                border-width: 1px;
+                font-size: 18px;
+            }
+            
+        body {
+            background-color: darkslategrey;
+        }
+    }
