@@ -106,7 +106,7 @@ button:hover {
         }
     }
 
-    @media(max-width: 600px) {
+    @media(max-width: 500px) {
         #link {
             position: relative;
             left: 40%;
@@ -136,7 +136,7 @@ button:hover {
         input[type=text] {
             position: relative;
             top: 30px;
-            width: 400px;
+            width: 300px;
             padding-inline-start: 40px;
             height: 40px;
             border-radius: 50px;
