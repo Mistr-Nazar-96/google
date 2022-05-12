@@ -1,0 +1,141 @@
+head,
+body {
+	height: 100%;
+	background-color: honeydew;
+}
+
+#image {
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+#heading {
+	margin-left: 40px;
+	color: red;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#header {
+	margin-left: 40px;
+	margin-top: 50px;
+}
+
+#image > #link {
+	position: relative;
+	margin-top: 20px;
+	left: 80%;
+	color: blue;
+	text-decoration: none;
+}
+
+#image > #link:hover {
+	text-decoration: underline;
+	color: darkgreen;
+}
+
+.foo1 {
+	position: relative;
+	margin-left: 100px;
+	width: 50%;
+	height: 30px;
+}
+
+.foo2 {
+	position: relative;
+	margin-left: 27px;
+	width: 50%;
+	height: 30px;
+}
+
+.foo3 {
+	position: relative;
+	margin-left: 50px;
+	width: 50%;
+	height: 30px;
+}
+
+.foo4 {
+	position: relative;
+	margin-left: 65px;
+	width: 50%;
+	height: 30px;
+}
+
+form {
+	position: relative;
+	margin-left: 40px;
+}
+
+button {
+	position: relative;
+	margin-left: 58%;
+	width: 95px;
+	height: 30px;
+}
+
+button:hover {
+	background-color: blue;
+}
+
+.end {
+	position: relative;
+	margin-top: 50px;
+}
+
+#link1 {
+	margin-left: 40px;
+	text-decoration: none;
+	color: blue;
+}
+
+#link1:hover {
+	text-decoration: underline;
+	color: darkgreen;
+}
+
+#link2 {
+	margin-left: 45px;
+	text-decoration: none;
+	color: blue;
+}
+
+#link2:hover {
+	text-decoration: underline;
+	color: darkgreen;
+}
+
+#link3 {
+	margin-left: 50px;
+	text-decoration: none;
+	color: blue;
+}
+
+#link3:hover {
+	text-decoration: underline;
+	color: darkgreen;
+}
+
+@media (min-width: 400px) {
+	body {
+		background-color: honeydew;
+	}
+}
+
+@media (max-width: 500px) {
+	body {
+		background-color: darkslategray;
+	}
+
+	#image > #link {
+		position: relative;
+		margin-top: 20px;
+		left: 60%;
+		color: blue;
+		text-decoration: none;
+	}
+
+	#image > #link:hover {
+		text-decoration: underline;
+		color: darkgreen;
+	}
+}
